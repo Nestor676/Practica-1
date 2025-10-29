@@ -10,24 +10,30 @@ header {
 }
 
 .cabecera {
-    position: fixed;
-    width: 100%;
+    position: absolute;
     background-color: bisque;
+    width: 100%;
     height: 50px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+    padding-left: 10px;
 }
 
 .titulo {
     color: darkblue;
     font-size: 20px;
+    padding-right: 20px;
 }
 
 .apartados {
     font-size: 15px;
-    margin-left: 15px;
+    padding-right: 20px;
+    margin-right: 200px;
+}
+
+#latest{
+    color: dimgrey;
+    text-decoration: underline dimgrey 3px;
 }
 
 #foto-perfil img {
@@ -39,14 +45,121 @@ header {
 .cuerpo {
     padding-top: 70px;
     width: 100%;
-    background-color: beige;
-    height: 500px
-}
-
-.texto-principal{
+    background-color: lightgrey;
+    height: 500px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-#Orange{
-    text-decoration: none;
+.contenedor{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+
+#orange{
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.heal{
+    font-size: 15px;
+}
+
+#magic{
+    font-size: 40px;
+}
+
+#imagen{
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+
+.pie-pagina{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.view{
+    padding-left: 50px;
+    padding-right: 60px;
+    color: dimgrey;
+}
+
+.categorias{
+    padding-left: 10px;
+    padding-right: 50px;
+    text-decoration: ;
+}
+
+.cuerpo2{
+    width: 100%;
+    height: 2000px;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.recipes{
+    margin-bottom: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.imagen2{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.contenedor2{
+    display: flex;
+    width: 150%;
+}
+
+.lorem{
+    font-size: 8px;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.contenedor3{
+    display: flex;
+    width: 150%;
+}
+
+.subtitulos{
+    margin-left: 50px;
+}
+
+.contenedortexto{
+    display: flex;
+    width: 150%;
+}
+
+.heals{
+    padding-right: 300px;
+    padding-left: 50px;
+}
+
+.contenedorlorem{
+    display: flex;
+    width: 150%;
+}
+
+.never{
+    background-color: peru;
+    border-radius: 15%;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 250px;
 }
