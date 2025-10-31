@@ -100,7 +100,6 @@ header {
 .cuerpo2{
     width: 100%;
     height: 2000px;
-    background-color: lightgrey;
     justify-content: center;
     align-items: center;
 }
@@ -114,7 +113,7 @@ header {
 }
 
 .recipes{
-    margin-bottom: 15px;
+    margin-bottom: 15px;text-decoration
     margin-top: 50px;
     margin-left: 50px;
 }
@@ -126,6 +125,7 @@ header {
 
 .contenedor3{
     width: 200%;
+    margin-top: 100px;
 }
 
 .subtitulos{
@@ -144,24 +144,135 @@ header {
     padding-left: 51px;
 }
 
-.never{
-    background-color: peru;
-    border-radius: 15%;
-    justify-content: center;
-    align-items: center;
-    width: 55%;
-    height: 250px;
-}
-
-h2{
-  display: inline-block;
-}
-
-p{
+.inline{
   display: inline-block;
 }
 
 .boton{
   border-radius: 30%;
-  color: red;
+  color: peru;
+  margin-left: 40px;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  border-color: peru;
+}
+
+.boton2{
+  border-radius: 30%;
+  color: peru;
+  margin-left: 300px;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  border-color: peru;
+}
+
+.boton:hover{
+    background-color: lightgrey;
+}
+
+.boton2:hover{
+    background-color: lightgrey;
+}
+
+.contenedor4{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.caja{
+    width: 50%;
+    height: 200px;
+    background-color: peru;
+    border-radius: 15%;
+    display: inline-block;
+}
+
+.contenido{
+    text-align: left;
+    align-items: left;
+    margin-left: 50px;
+}
+
+.contenido1{
+    margin-top: 60px;
+    width: 45%;
+}
+
+.contenido2{
+    width: 45%;
+}
+
+.mail{
+    display: inline-block;
+    border-radius: 15%;
+    border-color: bisque;
+    background-color: peru;
+    width: 100px;
+    height: 30px;
+    margin-left: 300px;
+}
+
+.mail:hover{
+    color: lightgrey;
+}
+
+.recipe{
+    display: inline-block;
+    border-radius: 15%;
+    border-color: bisque;
+    background-color: peru;
+    width: 100px;
+    height: 30px;
+}
+
+.recipe:hover{
+    color: lightgrey;
+}
+
+.contenedor5{
+    display: flex;
+    text-align: left;
+    justify-content: column;
+    align-items: center;
+}
+
+.caja2{
+    width: 100%;
+}
+
+.popular{
+    margin-left: 50px;
+}
+
+.caja3{
+    display: inline-block;
+    position: relative;
+}
+
+.caja3 img{
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 80%;
+    height: 300px;
+}
+
+.contenido3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitulos2{
+    width: 80%;
+    margin-top: 100px;
+}
+
+.heals2{
+    width: 80%;
+    margin-top: 90;
 }
