@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -113,7 +112,7 @@ header {
 }
 
 .recipes{
-    margin-bottom: 15px;text-decoration
+    margin-bottom: 15px;
     margin-top: 50px;
     margin-left: 50px;
 }
@@ -233,46 +232,301 @@ header {
 }
 
 .contenedor5{
-    display: flex;
+    display: block;
     text-align: left;
-    justify-content: column;
-    align-items: center;
+    padding: 30px 50px 80px 50px;
 }
 
 .caja2{
     width: 100%;
-}
-
-.popular{
-    margin-left: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .caja3{
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 320px 320px;
+    justify-content: space-between;
+    row-gap: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card{
     position: relative;
+    width: 320px;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #000;
 }
 
-.caja3 img{
+.card .imagenes{
     display: block;
-    margin-left: 50px;
-    margin-top: 20px;
-    width: 80%;
-    height: 300px;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
 }
 
-.contenido3{
+.card figcaption{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    color: black;
+    padding: 10px 12px;
+    max-width: none;
+    width: 300%;
 }
 
-.subtitulos2{
-    width: 80%;
-    margin-top: 100px;
+.card figcaption .heals2,
+.card figcaption .heals{
+    display: block;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: black;
+    font-size: 0.85rem;
 }
 
-.heals2{
-    width: 80%;
-    margin-top: 90;
+.card figcaption .subtitulos2,
+.card figcaption .subtitulos{
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.15;
+    color: black;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: normal;
+}
+
+.author-section{
+    background: #d9bfae;
+    padding: 48px 0;
+}
+.author-inner{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    padding: 0 24px;
+}
+.author-avatar img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #f0e6e0;
+    display: block;
+}
+.author-text{ max-width: 820px; }
+.author-kicker{
+    font-size: 0.875rem;
+    color: #3c2b24;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+.author-name{
+    font-size: 1.75rem;
+    margin: 0 0 8px 0;
+    color: #1b1b1b;
+}
+.author-bio{
+    color: #1b1b1b;
+    line-height: 1.45;
+    font-size: 0.95rem;
+}
+
+
+.site-footer{
+    background: #f6e7dd;
+    padding: 28px 0;
+    border-top: 1px solid rgba(0,0,0,0.04);
+}
+.footer-inner{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-logo{ height: 36px; width: auto; display:block; }
+.footer-links a{
+    margin-left: 18px;
+    color: #6b4f44;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+.footer-links a:first-child{ margin-left: 12px; }
+
+.footer-right{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.footer-right .social{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 0;
+    text-decoration: none;
+}
+
+
+.footer-right .social img.social-icon{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+@media (max-width: 900px) {
+
+  .caja3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-items: center;
+}
+
+  .card {
+    width: 100%;
+    max-width: 520px;
+}
+
+  .card .imagenes {
+    height: 260px;
+}
+
+  .contenedor, .contenedor2, .contenedor5, .caja2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+  .popular { margin-left: 0; }
+
+  .cabecera {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 8px;
+    padding: 10px 16px;
+}
+
+  .apartados { 
+    margin-right: 12px; 
+    font-size: 14px; 
+}
+  .perfil img { 
+    width: 28px; 
+    height: 28px; 
+  }
+
+  .author-inner { 
+    padding: 0 16px; 
+}
+
+  .footer-inner {
+    padding: 0 16px; 
+  }
+
+}
+
+@media (max-width: 520px) {
+
+  .caja3 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .card .imagenes {
+    height: 200px;
+  }
+
+  .card figcaption { 
+    left: 12px; 
+    right: 12px; 
+    bottom: 12px; 
+    padding: 8px; 
+  }
+
+  .contenedor, .contenedor2 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .apartados { 
+    display: none; 
+  }
+
+  .titulo { 
+    font-size: 18px; 
+}
+
+  #foto-perfil img { 
+    width: 36px; 
+    height: 36px; 
+}
+
+  .boton, .boton2, .mail, .recipe {
+    margin-left: 0;
+    display: inline-block;
+  }
+
+  .author-inner { 
+    flex-direction: column; 
+    text-align: center; 
+    gap: 12px; 
+}
+  .footer-inner { 
+    flex-direction: column; 
+    text-align: center; 
+    gap: 12px; 
+}
+  .footer-left { 
+    flex-direction: column; 
+    gap: 8px; 
+    align-items: center; 
+}
+  .footer-links a { 
+    display: inline-block; 
+    margin: 6px 8px; 
+}
+
+}
+
+@media (min-width: 1200px) {
+
+  .caja3 {
+    grid-template-columns: 1fr 1fr;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-items: stretch;
+    gap: 48px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .card { 
+    width: 100%; 
+    max-width: none;
+ }
+  .card .imagenes { 
+    height: 340px;
+ }
 }
