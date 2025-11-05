@@ -252,6 +252,11 @@ header {
   padding-right: 50px;
 }
 
+.caja3 > * {
+  flex: 0 0 320px;
+}
+
+
 .card{
     position: relative;
     width: 320px;
@@ -530,4 +535,5 @@ header {
     height: 340px;
  }
 }
+
 
