@@ -1,0 +1,278 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+.cabecera {
+    position: absolute;
+    background-color: bisque;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.titulo {
+    color: darkblue;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.apartados {
+    font-size: 15px;
+    padding-right: 20px;
+    margin-right: 200px;
+}
+
+#latest{
+    color: dimgrey;
+    text-decoration: underline dimgrey 3px;
+}
+
+#foto-perfil img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.cuerpo {
+    padding-top: 70px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/tortilla.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: absolute;
+}
+
+.contenedor{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-right: 1250px;
+    padding-bottom: 100px;
+}
+
+#orange{
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.heal{
+    font-size: 15px;
+}
+
+#magic{
+    font-size: 40px;
+}
+
+.pie-pagina{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.view{
+    padding-left: 50px;
+    padding-right: 60px;
+    color: dimgrey;
+}
+
+.categorias{
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.cuerpo2{
+    width: 100%;
+    height: 2000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor2{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-right: 1250px;
+    padding-bottom: 100px;
+}
+
+.recipes{
+    margin-bottom: 15px;text-decoration
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.imagen2{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.contenedor3{
+    width: 200%;
+    margin-top: 100px;
+}
+
+.subtitulos{
+    width: 35%;
+    padding-left: 40px;
+}
+
+.heals{
+    padding-right: 300px;
+    padding-left: 50px;
+}
+
+.lorem{
+    font-size: 8px;
+    width: 33%;
+    padding-left: 51px;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.boton{
+  border-radius: 30%;
+  color: peru;
+  margin-left: 40px;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  border-color: peru;
+}
+
+.boton2{
+  border-radius: 30%;
+  color: peru;
+  margin-left: 300px;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  border-color: peru;
+}
+
+.boton:hover{
+    background-color: lightgrey;
+}
+
+.boton2:hover{
+    background-color: lightgrey;
+}
+
+.contenedor4{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.caja{
+    width: 50%;
+    height: 200px;
+    background-color: peru;
+    border-radius: 15%;
+    display: inline-block;
+}
+
+.contenido{
+    text-align: left;
+    align-items: left;
+    margin-left: 50px;
+}
+
+.contenido1{
+    margin-top: 60px;
+    width: 45%;
+}
+
+.contenido2{
+    width: 45%;
+}
+
+.mail{
+    display: inline-block;
+    border-radius: 15%;
+    border-color: bisque;
+    background-color: peru;
+    width: 100px;
+    height: 30px;
+    margin-left: 300px;
+}
+
+.mail:hover{
+    color: lightgrey;
+}
+
+.recipe{
+    display: inline-block;
+    border-radius: 15%;
+    border-color: bisque;
+    background-color: peru;
+    width: 100px;
+    height: 30px;
+}
+
+.recipe:hover{
+    color: lightgrey;
+}
+
+.contenedor5{
+    display: flex;
+    text-align: left;
+    justify-content: column;
+    align-items: center;
+}
+
+.caja2{
+    width: 100%;
+}
+
+.popular{
+    margin-left: 50px;
+}
+
+.caja3{
+    display: inline-block;
+    position: relative;
+}
+
+.caja3 img{
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 80%;
+    height: 300px;
+}
+
+.contenido3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitulos2{
+    width: 80%;
+    margin-top: 100px;
+}
+
+.heals2{
+    width: 80%;
+    margin-top: 90;
+}
