@@ -243,13 +243,13 @@ header {
     margin: 0 auto;
 }
 
-.caja3{
-    display: grid;
-    grid-template-columns: 320px 320px;
-    justify-content: space-between;
-    row-gap: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
+.caja3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .card{
@@ -530,3 +530,4 @@ header {
     height: 340px;
  }
 }
+
